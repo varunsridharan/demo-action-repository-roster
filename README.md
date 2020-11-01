@@ -16,5 +16,5 @@
 <img src="https://avatars0.githubusercontent.com/u/66984783?v=4" alt="@aanmeegasaaral" style="max-width:100%;" width="100px;"> <br/> <sub><b>@aanmeegasaaral</b></sub> </a>
 </td><td align="center"> <a href="https://github.com/g-actions" rel="nofollow"> 
 <img src="https://avatars2.githubusercontent.com/u/54355091?v=4" alt="@g-actions" style="max-width:100%;" width="100px;"> <br/> <sub><b>@g-actions</b></sub> </a>
-</td></tr></tbody></table><p align="center"><i><b>-4</b> Others have forked this repository</i></p>
+</td></tr></tbody></table><p align="center"><i><b>3</b> have forked this repository</i></p>
 <!-- REPOSITORY_FORKS:END -->
