@@ -1,0 +1,20 @@
+name: "Repository Roster"
+
+on: 
+  watch:
+    types:
+      - started
+  fork:
+  
+jobs:
+  fetch_latest_info:
+    name: "🐔  Repository Roster"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "🐔  Repository Roster"
+        uses: varunsridharan/action-repository-roster@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
