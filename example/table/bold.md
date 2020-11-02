@@ -1,17 +1,6 @@
 # bold
 Username text will be bold
 
-## Use
-`<!-- REPOSITORY_STARS:START -->`
-`<!-- REPOSITORY_STARS:END -->`
-
-***Repository Stargazers***
-```markdown
-    ## ↳ Stargazers
-    <!-- REPOSITORY_STARS:START --> <!-- REPOSITORY_STARS:END -->
-```
-
-
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
