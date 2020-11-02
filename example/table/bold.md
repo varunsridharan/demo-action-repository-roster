@@ -2,9 +2,9 @@
 Username text will be bold
 
 ## Use
-`<!-- REPOSITORY_STARS:START -->`
-aaa
-`<!-- REPOSITORY_STARS:END -->`
+`<!-- REPOSITORY_STARS:START -->
+<table><tbody><tr><td align="center"><a href="https://github.com/kkotha82" rel="nofollow"><img src="https://avatars3.githubusercontent.com/u/15326217?v=4" alt="@kkotha82" style="max-width:100%;" width="75px;"><br/><b>@kkotha82</b></a> </td></tr></tbody></table><p align="center"><i><b>1</b> have starred this repository</i></p>
+<!-- REPOSITORY_STARS:END -->`
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
