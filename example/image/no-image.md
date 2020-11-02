@@ -4,7 +4,7 @@ User's avatar image will not be displayed
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-
+[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/no-image-stars/stars.svg?1604323924)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
