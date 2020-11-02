@@ -1,6 +1,13 @@
 # bold
 Username text will be bold
 
+## Use
+`<!-- REPOSITORY_STARS:START -->`
+
+AND
+
+`<!-- REPOSITORY_STARS:END -->`
+
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
