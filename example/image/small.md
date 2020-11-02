@@ -4,7 +4,7 @@ Username text will be small
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-
+[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/small-stars/stars.svg?1604323959)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
