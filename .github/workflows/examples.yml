@@ -192,6 +192,8 @@ jobs:
         with:
           STARS: 'example/list/multiple-style.md'
           FORK: 'example/list/multiple-style.md'
+          STARS_OUTPUT_TYPE: "list"
+          FORK_OUTPUT_TYPE: "list"
           STARS_OUTPUT_STYLE: "bold,italic,list-ordered"
           FORK_OUTPUT_STYLE: "bold,italic,list-ordered"
         env:
@@ -200,7 +202,7 @@ jobs:
       - name: "🐔  Image Layout - default"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/default-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/default-[type].svg'
           STARS: 'example/image/default.md'
           FORK: 'example/image/default.md'
           STARS_OUTPUT_TYPE: "image"
@@ -213,7 +215,7 @@ jobs:
       - name: "🐔  Image Layout - no-image"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/no-image-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/no-image-[type].svg'
           STARS: 'example/image/no-image.md'
           FORK: 'example/image/no-image.md'
           STARS_OUTPUT_TYPE: "image"
@@ -226,7 +228,7 @@ jobs:
       - name: "🐔  Image Layout - img-smooth"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/img-smooth-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/img-smooth-[type].svg'
           STARS: 'example/image/img-smooth.md'
           FORK: 'example/image/img-smooth.md'
           STARS_OUTPUT_TYPE: "image"
@@ -239,7 +241,7 @@ jobs:
       - name: "🐔  Image Layout - img-rounded"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/img-rounded-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/img-rounded-[type].svg'
           STARS: 'example/image/img-rounded.md'
           FORK: 'example/image/img-rounded.md'
           STARS_OUTPUT_TYPE: "image"
@@ -252,7 +254,7 @@ jobs:
       - name: "🐔  Image Layout - img-small"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/img-small-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/img-small-[type].svg'
           STARS: 'example/image/img-small.md'
           FORK: 'example/image/img-small.md'
           STARS_OUTPUT_TYPE: "image"
@@ -265,7 +267,7 @@ jobs:
       - name: "🐔  Image Layout - img-large"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/img-large-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/img-large-[type].svg'
           STARS: 'example/image/img-large.md'
           FORK: 'example/image/img-large.md'
           STARS_OUTPUT_TYPE: "image"
@@ -278,7 +280,7 @@ jobs:
       - name: "🐔  Image Layout - no-name"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/no-name-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/no-name-[type].svg'
           STARS: 'example/image/no-name.md'
           FORK: 'example/image/no-name.md'
           STARS_OUTPUT_TYPE: "image"
@@ -291,7 +293,7 @@ jobs:
       - name: "🐔  Image Layout - bold"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/bold-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/bold-[type].svg'
           STARS: 'example/image/bold.md'
           FORK: 'example/image/bold.md'
           STARS_OUTPUT_TYPE: "image"
@@ -304,7 +306,7 @@ jobs:
       - name: "🐔  Image Layout - italic"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/italic-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/italic-[type].svg'
           STARS: 'example/image/italic.md'
           FORK: 'example/image/italic.md'
           STARS_OUTPUT_TYPE: "image"
@@ -317,7 +319,7 @@ jobs:
       - name: "🐔  Image Layout - small"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/small-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/small-[type].svg'
           STARS: 'example/image/small.md'
           FORK: 'example/image/small.md'
           STARS_OUTPUT_TYPE: "image"
@@ -330,7 +332,7 @@ jobs:
       - name: "🐔  Image Layout - multiple-style"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          IMAGE_SAVE_PATH: '.github/roster/multiple-style-[type]'
+          IMAGE_SAVE_PATH: 'examples/roster-images/multiple-style-[type].svg'
           STARS: 'example/image/multiple-style.md'
           FORK: 'example/image/multiple-style.md'
           STARS_OUTPUT_TYPE: "image"
