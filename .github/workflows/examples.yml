@@ -12,6 +12,7 @@ jobs:
     name: "🐔  Table Layout"
     runs-on: ubuntu-latest
     strategy:
+      max-parallel: 0
       matrix:
         style: ['default','no-image','img-small','img-large','no-name']
     steps:
