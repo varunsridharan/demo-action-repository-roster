@@ -10,6 +10,7 @@ jobs:
   fetch_latest_info:
     name: "🐔  Repository Roster"
     runs-on: ubuntu-latest
+    if: github.repository == 'base/repo'
     steps:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
