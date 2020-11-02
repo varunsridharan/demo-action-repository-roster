@@ -2,7 +2,7 @@
 
 ## Repository Starred Users
 <!-- REPOSITORY_STARS:START -->
-[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/stars.svg)](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/stargazers)
+[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/blob/main/.github/roster/stars.svg)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
 <!-- REPOSITORY_STARS:END -->
 
 ---
