@@ -11,24 +11,96 @@ jobs:
   table_example:
     name: "🐔  Table Layout"
     runs-on: ubuntu-latest
-    strategy:
-      max-parallel: 1
-      matrix:
-        style: ['default','no-image','img-small','img-large','no-name','no-link','bold','italic','small']
     steps:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
 
-      - name: "🐔  ${{ strategy.job-index }}  ${{ matrix.style }}"
+      - name: "🐔  default"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          STARS: 'example/table/${{ matrix.style }}.md'
-          FORK: 'example/table/${{ matrix.style }}.md'
-          STARS_OUTPUT_STYLE: ${{ matrix.style }}
-          FORK_OUTPUT_STYLE: ${{ matrix.style }}
+          STARS: 'example/table/default.md'
+          FORK: 'example/table/default.md'
+          STARS_OUTPUT_STYLE: "default"
+          FORK_OUTPUT_STYLE: "default"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "Ideal For Few Sec"
-        run: sleep 5s
+      - name: "🐔  no-image"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/no-image.md'
+          FORK: 'example/table/no-image.md'
+          STARS_OUTPUT_STYLE: "no-image"
+          FORK_OUTPUT_STYLE: "no-image"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: "🐔  img-small"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/img-small.md'
+          FORK: 'example/table/img-small.md'
+          STARS_OUTPUT_STYLE: "img-small"
+          FORK_OUTPUT_STYLE: "img-small"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  img-large"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/img-large.md'
+          FORK: 'example/table/img-large.md'
+          STARS_OUTPUT_STYLE: "img-large"
+          FORK_OUTPUT_STYLE: "img-large"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  no-name"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/no-name.md'
+          FORK: 'example/table/no-name.md'
+          STARS_OUTPUT_STYLE: "no-name"
+          FORK_OUTPUT_STYLE: "no-name"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  no-link"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/no-link.md'
+          FORK: 'example/table/no-link.md'
+          STARS_OUTPUT_STYLE: "no-link"
+          FORK_OUTPUT_STYLE: "no-link"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  bold"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/bold.md'
+          FORK: 'example/table/bold.md'
+          STARS_OUTPUT_STYLE: "bold"
+          FORK_OUTPUT_STYLE: "bold"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  italic"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/italic.md'
+          FORK: 'example/table/italic.md'
+          STARS_OUTPUT_STYLE: "italic"
+          FORK_OUTPUT_STYLE: "italic"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  small"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table/small.md'
+          FORK: 'example/table/small.md'
+          STARS_OUTPUT_STYLE: "small"
+          FORK_OUTPUT_STYLE: "small"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
