@@ -1,5 +1,5 @@
-# no-link & img-small
-User's avatar image size will be small & will not have link to users github profile
+# bold,italic,img-small
+Username will be bold & italic & User's avatar will be small
 
 ### ↳ Stargazers
 
@@ -21,8 +21,8 @@ User's avatar image size will be small & will not have link to users github prof
 - name: "🐔  Update Repository Roster"
   uses: "varunsridharan/action-repository-roster@main"
   with:
-    STARS_OUTPUT_STYLE: "img-small,no-link"
-    FORK_OUTPUT_STYLE: "img-small,no-link"
+    STARS_OUTPUT_STYLE: "bold,italic,img-small"
+    FORK_OUTPUT_STYLE: "bold,italic,img-small"
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
