@@ -4,13 +4,13 @@ Github user's profile link will not be added
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-
+<ul><li>@varunsridharan <br/> </li><li>@kkotha82 <br/> </li><ul><p align="center"><i><b>2</b> have starred this repository</i></p>
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
 
 <!-- REPOSITORY_FORKS:START -->
-
+<ul><li>@technofreaky <br/> </li><li>@anirudhdhan <br/> </li><li>@aanmeegasaaral <br/> </li><li>@kkotha82 <br/> </li><ul><p align="center"><i><b>4</b> have forked this repository</i></p>
 <!-- REPOSITORY_FORKS:END -->
 
 ---

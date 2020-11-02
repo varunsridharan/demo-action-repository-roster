@@ -4,13 +4,13 @@ Username text will be small
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-<table><tbody><tr><td align="center"><a href="https://github.com/varunsridharan" rel="nofollow"><img src="https://avatars1.githubusercontent.com/u/1884287?v=4" alt="@varunsridharan" style="max-width:100%;" width="75px;"><br/><sub>@varunsridharan</sub></a> </td><td align="center"><a href="https://github.com/kkotha82" rel="nofollow"><img src="https://avatars3.githubusercontent.com/u/15326217?v=4" alt="@kkotha82" style="max-width:100%;" width="75px;"><br/><sub>@kkotha82</sub></a> </td></tr></tbody></table><p align="center"><i><b>2</b> have starred this repository</i></p>
+<ul><li><a href="https://github.com/varunsridharan" rel="nofollow"><sub>@varunsridharan</sub> <br/> </a> </li><li><a href="https://github.com/kkotha82" rel="nofollow"><sub>@kkotha82</sub> <br/> </a> </li><ul><p align="center"><i><b>2</b> have starred this repository</i></p>
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
 
 <!-- REPOSITORY_FORKS:START -->
-<table><tbody><tr><td align="center"><a href="https://github.com/technofreaky" rel="nofollow"><img src="https://avatars1.githubusercontent.com/u/32121790?v=4" alt="@technofreaky" style="max-width:100%;" width="75px;"><br/><sub>@technofreaky</sub></a> </td><td align="center"><a href="https://github.com/anirudhdhan" rel="nofollow"><img src="https://avatars2.githubusercontent.com/u/68533015?v=4" alt="@anirudhdhan" style="max-width:100%;" width="75px;"><br/><sub>@anirudhdhan</sub></a> </td><td align="center"><a href="https://github.com/aanmeegasaaral" rel="nofollow"><img src="https://avatars0.githubusercontent.com/u/66984783?v=4" alt="@aanmeegasaaral" style="max-width:100%;" width="75px;"><br/><sub>@aanmeegasaaral</sub></a> </td><td align="center"><a href="https://github.com/kkotha82" rel="nofollow"><img src="https://avatars3.githubusercontent.com/u/15326217?v=4" alt="@kkotha82" style="max-width:100%;" width="75px;"><br/><sub>@kkotha82</sub></a> </td></tr></tbody></table><p align="center"><i><b>4</b> have forked this repository</i></p>
+<ul><li><a href="https://github.com/technofreaky" rel="nofollow"><sub>@technofreaky</sub> <br/> </a> </li><li><a href="https://github.com/anirudhdhan" rel="nofollow"><sub>@anirudhdhan</sub> <br/> </a> </li><li><a href="https://github.com/aanmeegasaaral" rel="nofollow"><sub>@aanmeegasaaral</sub> <br/> </a> </li><li><a href="https://github.com/kkotha82" rel="nofollow"><sub>@kkotha82</sub> <br/> </a> </li><ul><p align="center"><i><b>4</b> have forked this repository</i></p>
 <!-- REPOSITORY_FORKS:END -->
 
 ---
