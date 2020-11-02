@@ -11,24 +11,20 @@ jobs:
   table_example:
     name: "🐔  Table Layout"
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        style: ['default','no-image','img-small','img-large','no-name']
     steps:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
 
-      - name: "🐔  Style 1"
+      - name: "🐔  ${{ matrix.style }}"
         uses: "varunsridharan/action-repository-roster@main"
         with:
-          STARS: 'example/table.md'
-          FORK: 'example/table.md'
+          STARS: 'example/table/${{ matrix.style }}.md'
+          FORK: 'example/table/${{ matrix.style }}.md'
+          STARS_OUTPUT_STYLE: ${{ matrix.style }}
+          FORK_OUTPUT_STYLE: ${{ matrix.style }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  Style 2"
-        uses: "varunsridharan/action-repository-roster@main"
-        with:
-          STARS: 'example/table.md'
-          FORK: 'example/table.md'
-          STARS_OUTPUT_STYLE: "img-small,no-link"
-          FORK_OUTPUT_STYLE: "img-small,no-link"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
