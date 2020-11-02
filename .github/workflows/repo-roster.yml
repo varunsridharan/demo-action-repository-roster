@@ -18,10 +18,7 @@ jobs:
           echo "GITHUB_REF : $GITHUB_REF"
           echo "GITHUB_HEAD_REF : $GITHUB_HEAD_REF"
           echo "GITHUB_BASE_REF : $GITHUB_BASE_REF"
-        env:
-          GITHUB_HEAD_REF: ${{ GITHUB_HEAD_REF }}
-          GITHUB_BASE_REF: ${{ GITHUB_BASE_REF }}
-          GITHUB_REF: ${{ GITHUB_REF }}
+
           
       #- name: "🐔  Repository Roster"
       #  uses: varunsridharan/action-repository-roster@main
