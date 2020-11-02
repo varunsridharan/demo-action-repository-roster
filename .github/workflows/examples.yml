@@ -14,12 +14,12 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        style: ['default','no-image','img-small','img-large','no-name']
+        style: ['default','no-image','img-small','img-large','no-name','no-link','bold','italic','small']
     steps:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
 
-      - name: "🐔  ${{ matrix.style }}"
+      - name: "🐔  ${{ strategy.job-index }}  ${{ matrix.style }}"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/${{ matrix.style }}.md'
