@@ -204,3 +204,154 @@ jobs:
           FORK_OUTPUT_STYLE: "bold,italic,list-ordered"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  image_example:
+    name: "🐔  Image Layout"
+    needs: table_example
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "🐔  default"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/default-[type]'
+          STARS: 'example/image/default.md'
+          FORK: 'example/image/default.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "default"
+          FORK_OUTPUT_STYLE: "default"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  no-image"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/no-image-[type]'
+          STARS: 'example/image/no-image.md'
+          FORK: 'example/image/no-image.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "no-image"
+          FORK_OUTPUT_STYLE: "no-image"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  img-smooth"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/img-smooth-[type]'
+          STARS: 'example/image/img-smooth.md'
+          FORK: 'example/image/img-smooth.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "img-smooth"
+          FORK_OUTPUT_STYLE: "img-smooth"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  img-rounded"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/img-rounded-[type]'
+          STARS: 'example/image/img-rounded.md'
+          FORK: 'example/image/img-rounded.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "img-rounded"
+          FORK_OUTPUT_STYLE: "img-rounded"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  img-small"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/img-small-[type]'
+          STARS: 'example/image/img-small.md'
+          FORK: 'example/image/img-small.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "img-small"
+          FORK_OUTPUT_STYLE: "img-small"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  img-large"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/img-large-[type]'
+          STARS: 'example/image/img-large.md'
+          FORK: 'example/image/img-large.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "img-large"
+          FORK_OUTPUT_STYLE: "img-large"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  no-name"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/no-name-[type]'
+          STARS: 'example/image/no-name.md'
+          FORK: 'example/image/no-name.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "no-name"
+          FORK_OUTPUT_STYLE: "no-name"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  bold"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/bold-[type]'
+          STARS: 'example/image/bold.md'
+          FORK: 'example/image/bold.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "bold"
+          FORK_OUTPUT_STYLE: "bold"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  italic"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/italic-[type]'
+          STARS: 'example/image/italic.md'
+          FORK: 'example/image/italic.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "italic"
+          FORK_OUTPUT_STYLE: "italic"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  small"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/small-[type]'
+          STARS: 'example/image/small.md'
+          FORK: 'example/image/small.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "small"
+          FORK_OUTPUT_STYLE: "small"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  multiple-style"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          IMAGE_SAVE_PATH: '.github/roster/multiple-style-[type]'
+          STARS: 'example/image/multiple-style.md'
+          FORK: 'example/image/multiple-style.md'
+          STARS_OUTPUT_TYPE: "image"
+          FORK_OUTPUT_TYPE: "image"
+          STARS_OUTPUT_STYLE: "img-rounded,img-small,bold,italic"
+          FORK_OUTPUT_STYLE: "img-rounded,img-small,bold,italic"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
