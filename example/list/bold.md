@@ -4,7 +4,7 @@ Username text will be bold
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-
+<ul><li><a href="https://github.com/varunsridharan" rel="nofollow"><b>@varunsridharan</b> <br/> </a> </li><li><a href="https://github.com/kkotha82" rel="nofollow"><b>@kkotha82</b> <br/> </a> </li><ul><p align="center"><i><b>2</b> have starred this repository</i></p>
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
