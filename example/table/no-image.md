@@ -13,10 +13,10 @@ User's avatar image will not be displayed
 <table><tbody><tr><td align="center"><a href="https://github.com/technofreaky" rel="nofollow">@technofreaky</a> </td><td align="center"><a href="https://github.com/anirudhdhan" rel="nofollow">@anirudhdhan</a> </td><td align="center"><a href="https://github.com/aanmeegasaaral" rel="nofollow">@aanmeegasaaral</a> </td><td align="center"><a href="https://github.com/kkotha82" rel="nofollow">@kkotha82</a> </td></tr></tbody></table><p align="center"><i><b>4</b> have forked this repository</i></p>
 <!-- REPOSITORY_FORKS:END -->
 
+---
 
-<details>
-    <summary>Action Config</summary>
-    
+## Config
+
 ```yml
 - name: "🐔  Update Repository Roster"
   uses: "varunsridharan/action-repository-roster@main"
@@ -26,5 +26,3 @@ User's avatar image will not be displayed
   env:
     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
-
-</details>
