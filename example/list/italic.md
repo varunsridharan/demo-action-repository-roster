@@ -4,7 +4,7 @@ Username text will be italic
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-<ul><li><a href="https://github.com/varunsridharan" rel="nofollow"><i>@varunsridharan</i> <br/> </a> </li><li><a href="https://github.com/kkotha82" rel="nofollow"><i>@kkotha82</i> <br/> </a> </li><ul><p align="center"><i><b>2</b> have starred this repository</i></p>
+<ul><li><a href="https://github.com/kkotha82" rel="nofollow"><i>@kkotha82</i> <br/> </a> </li><ul><p align="center"><i><b>1</b> have starred this repository</i></p>
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
