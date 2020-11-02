@@ -4,7 +4,7 @@ Username will be bold & italic & User's avatar will be small
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/multiple-style-stars/stars.svg?1604330644)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
+[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/multiple-style-stars/stars.svg?1604330778)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
