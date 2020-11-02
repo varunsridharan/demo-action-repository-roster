@@ -114,3 +114,93 @@ jobs:
           FORK_OUTPUT_STYLE: "bold,italic,img-small"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  list_example:
+    name: "🐔  List Layout"
+    needs: table_example
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "🐔  default"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/list/default.md'
+          FORK: 'example/list/default.md'
+          STARS_OUTPUT_TYPE: "list"
+          FORK_OUTPUT_TYPE: "list"
+          STARS_OUTPUT_STYLE: "default"
+          FORK_OUTPUT_STYLE: "default"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  list-ordered"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/list/list-ordered.md'
+          FORK: 'example/list/list-ordered.md'
+          STARS_OUTPUT_TYPE: "list"
+          FORK_OUTPUT_TYPE: "list"
+          STARS_OUTPUT_STYLE: "list-ordered"
+          FORK_OUTPUT_STYLE: "list-ordered"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  no-link"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/list/no-link.md'
+          FORK: 'example/list/no-link.md'
+          STARS_OUTPUT_TYPE: "list"
+          FORK_OUTPUT_TYPE: "list"
+          STARS_OUTPUT_STYLE: "no-link"
+          FORK_OUTPUT_STYLE: "no-link"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  italic"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/list/italic.md'
+          FORK: 'example/list/italic.md'
+          STARS_OUTPUT_TYPE: "list"
+          FORK_OUTPUT_TYPE: "list"
+          STARS_OUTPUT_STYLE: "italic"
+          FORK_OUTPUT_STYLE: "italic"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  bold"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/list/bold.md'
+          FORK: 'example/list/bold.md'
+          STARS_OUTPUT_TYPE: "list"
+          FORK_OUTPUT_TYPE: "list"
+          STARS_OUTPUT_STYLE: "bold"
+          FORK_OUTPUT_STYLE: "bold"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  small"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/list/small.md'
+          FORK: 'example/list/small.md'
+          STARS_OUTPUT_TYPE: "list"
+          FORK_OUTPUT_TYPE: "list"
+          STARS_OUTPUT_STYLE: "small"
+          FORK_OUTPUT_STYLE: "small"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  multiple-style"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/list/multiple-style.md'
+          FORK: 'example/list/multiple-style.md'
+          STARS_OUTPUT_STYLE: "bold,italic,list-ordered"
+          FORK_OUTPUT_STYLE: "bold,italic,list-ordered"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
