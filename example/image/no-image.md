@@ -10,7 +10,7 @@ User's avatar image will not be displayed
 ### ↳ Forkers
 
 <!-- REPOSITORY_FORKS:START -->
-[![Forkers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/no-image-forks/forks.svg?1604330735)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
+[![Forkers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/examples/roster-images/no-image-forks.svg?1604331834)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
 <!-- REPOSITORY_FORKS:END -->
 
 ---
