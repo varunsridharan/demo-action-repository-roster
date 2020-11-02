@@ -14,7 +14,16 @@ jobs:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
 
-      - name: "🐔  Repository Roster"
-        uses: varunsridharan/action-repository-roster@main
+      - run: |
+          echo "GITHUB_REF : $GITHUB_REF"
+          echo "GITHUB_HEAD_REF : $GITHUB_HEAD_REF"
+          echo "GITHUB_BASE_REF : $GITHUB_BASE_REF"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_HEAD_REF: ${{ GITHUB_HEAD_REF }}
+          GITHUB_BASE_REF: ${{ GITHUB_BASE_REF }}
+          GITHUB_REF: ${{ GITHUB_REF }}
+          
+      #- name: "🐔  Repository Roster"
+      #  uses: varunsridharan/action-repository-roster@main
+      #  env:
+      #    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
