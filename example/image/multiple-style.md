@@ -10,7 +10,7 @@ Username will be bold & italic & User's avatar will be small
 ### ↳ Forkers
 
 <!-- REPOSITORY_FORKS:START -->
-[![Forkers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/multiple-style-forks/forks.svg?1604324274)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
+[![Forkers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/multiple-style-forks/forks.svg?1604324723)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
 <!-- REPOSITORY_FORKS:END -->
 
 ---
