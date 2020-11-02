@@ -15,8 +15,6 @@ User's name will not be displayed
 
 ---
 
-## Config
-
 ```yml
 - name: "🐔  Update Repository Roster"
   uses: "varunsridharan/action-repository-roster@main"

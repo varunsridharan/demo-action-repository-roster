@@ -14,9 +14,6 @@ Username text will be italic
 <!-- REPOSITORY_FORKS:END -->
 
 ---
-
-## Config
-
   
 ```yml
 - name: "🐔  Update Repository Roster"

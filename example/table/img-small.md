@@ -14,8 +14,6 @@ User's avatar image size will be small
 <!-- REPOSITORY_FORKS:END -->
 
 ---
-
-## Config
    
 ```yml
 - name: "🐔  Update Repository Roster"

@@ -15,8 +15,6 @@ User's avatar image size will be large
 
 ---
 
-## Config
-
 ```yml
 - name: "🐔  Update Repository Roster"
   uses: "varunsridharan/action-repository-roster@main"

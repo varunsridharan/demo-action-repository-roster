@@ -15,8 +15,6 @@ Github user's profile link will not be added
 
 ---
 
-## Config
-
 ```yml
 - name: "🐔  Update Repository Roster"
   uses: "varunsridharan/action-repository-roster@main"

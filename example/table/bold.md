@@ -15,8 +15,6 @@ Username text will be bold
 
 ---
 
-## Config
-
 ```yml
 - name: "🐔  Update Repository Roster"
   uses: "varunsridharan/action-repository-roster@main"
