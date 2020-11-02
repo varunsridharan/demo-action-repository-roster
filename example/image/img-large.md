@@ -4,7 +4,7 @@ User's avatar image size will be large
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/.github/roster/img-large-stars/stars.svg?1604330753)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
+[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/examples/roster-images/img-large-stars.svg?1604331852)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
