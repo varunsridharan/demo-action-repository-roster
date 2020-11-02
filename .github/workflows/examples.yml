@@ -1,0 +1,34 @@
+name: "🙏 Repository Roster Examples"
+
+on:
+  workflow_dispatch:
+  watch:
+    types:
+      - started
+  fork:
+
+jobs:
+  table_example:
+    name: "🐔  Table Layout"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "📥  Fetching Repository Contents"
+        uses: actions/checkout@main
+
+      - name: "🐔  Style 1"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table.md'
+          FORK: 'example/table.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "🐔  Style 2"
+        uses: "varunsridharan/action-repository-roster@main"
+        with:
+          STARS: 'example/table.md'
+          FORK: 'example/table.md'
+          STARS_OUTPUT_STYLE: "img-small,no-link"
+          FORK_OUTPUT_STYLE: "img-small,no-link"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
