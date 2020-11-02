@@ -207,7 +207,7 @@ jobs:
 
   image_example:
     name: "🐔  Image Layout"
-    needs: table_example
+    needs: list_example
     runs-on: ubuntu-latest
     steps:
       - name: "📥  Fetching Repository Contents"
