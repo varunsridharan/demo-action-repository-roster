@@ -8,14 +8,14 @@ on:
   fork:
 
 jobs:
-  table_example:
-    name: "🐔  Table Layout"
+  update_examples:
+    name: "🐔  Update Examples"
     runs-on: ubuntu-latest
     steps:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
 
-      - name: "🐔  default"
+      - name: "🐔  Table Layout - default"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/default.md'
@@ -25,7 +25,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  no-image"
+      - name: "🐔  Table Layout - no-image"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/no-image.md'
@@ -35,7 +35,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  img-small"
+      - name: "🐔  Table Layout - img-small"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/img-small.md'
@@ -45,7 +45,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  img-large"
+      - name: "🐔  Table Layout - img-large"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/img-large.md'
@@ -55,7 +55,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  no-name"
+      - name: "🐔  Table Layout - no-name"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/no-name.md'
@@ -65,7 +65,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  no-link"
+      - name: "🐔  Table Layout - no-link"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/no-link.md'
@@ -75,7 +75,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  bold"
+      - name: "🐔  Table Layout - bold"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/bold.md'
@@ -85,7 +85,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  italic"
+      - name: "🐔  Table Layout - italic"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/italic.md'
@@ -95,7 +95,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  small"
+      - name: "🐔  Table Layout - small"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/small.md'
@@ -105,7 +105,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  multiple-style"
+      - name: "🐔  Table Layout - multiple-style"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/table/multiple-style.md'
@@ -115,15 +115,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  list_example:
-    name: "🐔  List Layout"
-    needs: table_example
-    runs-on: ubuntu-latest
-    steps:
       - name: "📥  Fetching Repository Contents"
         uses: actions/checkout@main
 
-      - name: "🐔  default"
+      - name: "🐔  List Layout - default"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/list/default.md'
@@ -135,7 +130,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  list-ordered"
+      - name: "🐔  List Layout - list-ordered"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/list/list-ordered.md'
@@ -147,7 +142,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  no-link"
+      - name: "🐔  List Layout - no-link"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/list/no-link.md'
@@ -159,7 +154,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  italic"
+      - name: "🐔  List Layout - italic"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/list/italic.md'
@@ -171,7 +166,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  bold"
+      - name: "🐔  List Layout - bold"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/list/bold.md'
@@ -183,7 +178,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  small"
+      - name: "🐔  List Layout - small"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/list/small.md'
@@ -195,7 +190,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  multiple-style"
+      - name: "🐔  List Layout - multiple-style"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           STARS: 'example/list/multiple-style.md'
@@ -205,15 +200,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  image_example:
-    name: "🐔  Image Layout"
-    needs: list_example
-    runs-on: ubuntu-latest
-    steps:
-      - name: "📥  Fetching Repository Contents"
-        uses: actions/checkout@main
-
-      - name: "🐔  default"
+      - name: "🐔  Image Layout - default"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/default-[type]'
@@ -226,7 +213,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  no-image"
+      - name: "🐔  Image Layout - no-image"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/no-image-[type]'
@@ -239,7 +226,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  img-smooth"
+      - name: "🐔  Image Layout - img-smooth"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/img-smooth-[type]'
@@ -252,7 +239,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  img-rounded"
+      - name: "🐔  Image Layout - img-rounded"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/img-rounded-[type]'
@@ -265,7 +252,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  img-small"
+      - name: "🐔  Image Layout - img-small"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/img-small-[type]'
@@ -278,7 +265,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  img-large"
+      - name: "🐔  Image Layout - img-large"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/img-large-[type]'
@@ -291,7 +278,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  no-name"
+      - name: "🐔  Image Layout - no-name"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/no-name-[type]'
@@ -304,7 +291,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  bold"
+      - name: "🐔  Image Layout - bold"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/bold-[type]'
@@ -317,7 +304,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  italic"
+      - name: "🐔  Image Layout - italic"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/italic-[type]'
@@ -330,7 +317,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  small"
+      - name: "🐔  Image Layout - small"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/small-[type]'
@@ -343,7 +330,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "🐔  multiple-style"
+      - name: "🐔  Image Layout - multiple-style"
         uses: "varunsridharan/action-repository-roster@main"
         with:
           IMAGE_SAVE_PATH: '.github/roster/multiple-style-[type]'
