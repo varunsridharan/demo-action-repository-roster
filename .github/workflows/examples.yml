@@ -115,9 +115,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: "📥  Fetching Repository Contents"
-        uses: actions/checkout@main
-
       - name: "🐔  List Layout - default"
         uses: "varunsridharan/action-repository-roster@main"
         with:
