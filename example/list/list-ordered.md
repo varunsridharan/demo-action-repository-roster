@@ -4,7 +4,7 @@ Users list will be generated using HTML `ol` _Ordered list_
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-<ol><li><a href="https://github.com/kkotha82" rel="nofollow">@kkotha82 <br/> </a> </li><ol><p align="center"><i><b>1</b> have starred this repository</i></p>
+<ol><li><a href="https://github.com/kkotha82" rel="nofollow">@kkotha82 <br/> </a> </li></ol><p align="center"><i><b>1</b> have starred this repository</i></p>
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
