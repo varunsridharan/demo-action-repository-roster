@@ -10,7 +10,7 @@ Username text will be small
 ### ↳ Forkers
 
 <!-- REPOSITORY_FORKS:START -->
-[![Forkers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/examples/roster-images/small-forks.svg?1604331870)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
+[![Forkers repo roster for @varunsridharan/demo-action-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-action-repository-roster/main/examples/roster-images/small-forks.svg)](https://github.com/varunsridharan/demo-action-repository-roster/stargazers)
 <!-- REPOSITORY_FORKS:END -->
 
 ---
