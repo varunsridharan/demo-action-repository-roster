@@ -4,7 +4,7 @@ User's avatar will be slightly rounded
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-[![Stargazers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/examples/roster-images/img-smooth-stars.svg?1604331839)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
+[![Stargazers repo roster for @varunsridharan/demo-action-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-action-repository-roster/main/examples/roster-images/img-smooth-stars.svg)](https://github.com/varunsridharan/demo-action-repository-roster/stargazers)
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
