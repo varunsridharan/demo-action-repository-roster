@@ -4,7 +4,7 @@ Username will be bold & italic & Users list will be generated using HTML `ol` _O
 ### ↳ Stargazers
 
 <!-- REPOSITORY_STARS:START -->
-<ol><li><a href="https://github.com/kkotha82" rel="nofollow"><b><i>@kkotha82</i></b> <br/> </a> </li><ol><p align="center"><i><b>1</b> have starred this repository</i></p>
+<ol><li><a href="https://github.com/kkotha82" rel="nofollow"><b><i>@kkotha82</i></b> <br/> </a> </li></ol><p align="center"><i><b>1</b> have starred this repository</i></p>
 <!-- REPOSITORY_STARS:END -->
 
 ### ↳ Forkers
