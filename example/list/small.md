@@ -10,7 +10,7 @@ Username text will be small
 ### ↳ Forkers
 
 <!-- REPOSITORY_FORKS:START -->
-<ul><li><a href="https://github.com/technofreaky" rel="nofollow"><sub>@technofreaky</sub> <br/> </a> </li><li><a href="https://github.com/anirudhdhan" rel="nofollow"><sub>@anirudhdhan</sub> <br/> </a> </li><li><a href="https://github.com/aanmeegasaaral" rel="nofollow"><sub>@aanmeegasaaral</sub> <br/> </a> </li><li><a href="https://github.com/kkotha82" rel="nofollow"><sub>@kkotha82</sub> <br/> </a> </li><ul><p align="center"><i><b>4</b> have forked this repository</i></p>
+<ul><li><a href="https://github.com/kkotha82" rel="nofollow"><sub>@kkotha82</sub> <br/> </a> </li></ul><p align="center"><i><b>1</b> have forked this repository</i></p>
 <!-- REPOSITORY_FORKS:END -->
 
 ---
