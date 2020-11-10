@@ -10,7 +10,7 @@ User's avatar will be slightly rounded
 ### ↳ Forkers
 
 <!-- REPOSITORY_FORKS:START -->
-[![Forkers repo roster for @varunsridharan/demo-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-repository-roster/main/examples/roster-images/img-smooth-forks.svg?1604331838)](https://github.com/varunsridharan/demo-repository-roster/stargazers)
+[![Forkers repo roster for @varunsridharan/demo-action-repository-roster](https://raw.githubusercontent.com/varunsridharan/demo-action-repository-roster/main/examples/roster-images/img-smooth-forks.svg)](https://github.com/varunsridharan/demo-action-repository-roster/stargazers)
 <!-- REPOSITORY_FORKS:END -->
 
 ---
